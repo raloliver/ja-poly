@@ -6,7 +6,7 @@ const $root = document.getElementById("root");
 $root.innerHTML = `Your IMC is: ${calcImc({
   height: 1.75,
   weight: 72
-})}><br><br>`;
+})}<br><br>`;
 
 const bankAccount = new BankAccount({
   owner: "Ral Oliver",
