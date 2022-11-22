@@ -5,7 +5,7 @@ const $root = document.getElementById("root");
 // if the user change the order of the params?
 $root.innerHTML = `Your IMC is: ${calcImc({
   height: 1.75,
-  weight: 72
+  weight: 75
 })}<br><br>`;
 
 const bankAccount = new BankAccount({
